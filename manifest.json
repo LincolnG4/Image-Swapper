@@ -1,11 +1,11 @@
 {
-	"name": "Image Replacer",
-	"description": "Replace all images with whatever you want.",
-	"author": "MysteryPancake",
+	"name": "ImageSwap Roulette",
+	"description": "Give that webpage a makeover by swapping out all its images with a delightful selection of random pictures handpicked by you!",
+	"author": "LincolnG4",
 	"manifest_version": 3,
-	"version": "1.5",
+	"version": "1.0",
 	"action": {
-		"default_title": "Image Replacer",
+		"default_title": "ImageSwap Roulette",
 		"default_popup": "index.html"
 	},
 	"content_scripts": [
@@ -16,17 +16,13 @@
 			"all_frames": true
 		}
 	],
-	"homepage_url": "https://github.com/MysteryPancake/Image-Replacer",
+	"homepage_url": "https://github.com/LincolnG4/ImageSwap-Roulette",
 	"icons": {
 		"16": "icon16.png",
-		"24": "icon24.png",
 		"32": "icon32.png",
 		"48": "icon48.png",
-		"64": "icon64.png",
-		"128": "icon128.png",
-		"256": "icon256.png",
-		"512": "icon512.png"
+		"128": "icon128.png"
 	},
 	"permissions": ["storage"],
-	"short_name": "Image Replacer"
+	"short_name": "ImageSwap Roulette"
 }

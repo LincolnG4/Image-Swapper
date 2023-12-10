@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Image Replacer</title>
-		<meta name="description" content="Replace all images with whatever you want.">
-		<meta name="keywords" content="Image, Replace, Replacer">
-		<meta property="og:title" content="Image Replacer">
-		<meta property="og:type" content="website">
-		<meta property="og:site_name" content="Image Replacer">
-		<meta property="og:description" content="Replace all images with whatever you want.">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<input id="enabled" type="checkbox">
-		<label for="enabled">Enabled</label>
-		<input id="url" type="url" placeholder="https://example.com/image.png">
-		<input id="submit" type="submit" value="Save">
-		<script src="scripts/Popup.js"></script>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <title>ImageSwap Roulette</title>
+    <meta name="description" content="Give that webpage a makeover by swapping out all its images with a delightful selection of random pictures handpicked by you!">
+    <meta name="keywords" content="Image, Replace, Replacer, Swap, Change">
+    <meta property="og:title" content="ImageSwap Rouletter">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ImageSwap Roulette">
+    <meta property="og:description" content="Give that webpage a makeover by swapping out all its images with a delightful selection of random pictures handpicked by you!.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <input id="enabled" type="checkbox">
+    <label for="enabled">Enabled</label>
+
+    <div id="urlInputs">
+        <!-- Initial URL input -->
+        <input class="urlInput" type="url" placeholder="https://example.com/image.png">
+    </div>
+
+    <button id="addUrl">Add URL</button>
+
+    <input id="submit" type="submit" value="Save">
+
+    <script src="scripts/Popup.js"></script>
+</body>
 </html>

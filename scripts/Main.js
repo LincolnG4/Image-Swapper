@@ -1,24 +1,38 @@
 "use strict";
 
-var url = "";
+var url = ["", "", "", "", "", ""];
 
 function replace() {
-	var images = document.getElementsByTagName("img");
-	for (var i = 0; i < images.length; i++) {
-		images[i].src = url;
-	}
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+		var validUrls = getElementsUrlNotNull(url)
+        var randomIndex = randomPick(validUrls);
+        var randomQueryParam = "?nocache=" + Math.random();
+        images[i].src = validUrls[randomIndex] + randomQueryParam;
+    }
 }
 
-chrome.storage.sync.get({
-	enabled: false,
-	url: ""
+function randomPick(arr) {
+    return Math.floor(Math.random() * arr.length);
+}
+
+function getElementsUrlNotNull(arr) {
+    var result = [];
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] != "") {
+            result.push(arr[i]);
+        }
+    }
+    return result;
+}
+
+chrome.storage.local.get({
+    enabled: false,
+    url: ["", "", "", "", "", ""]
 }, function(items) {
-	if (items.enabled) {
-		url = items.url;
-		var css = document.createElement("style");
-		css.innerHTML = "img { content: url(\"" + url + "\") !important; }";
-		document.body.appendChild(css);
-		window.setInterval(replace, 3000);
-		replace();
-	}
+    if (items.enabled) {
+        url = items.url;
+        window.setInterval(replace, 5000);
+        replace();
+    }
 });
