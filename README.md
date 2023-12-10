@@ -31,7 +31,7 @@ B. Clone this repository:
 1. Click on the extension icon to open the popup.
 2. Toggle the "Enabled" checkbox to activate or deactivate the extension.
 3. Enter URLs of images you want to use in the input fields.
-4. Click "Add URL" to add more input fields dynamically.
+4. Click "Add more images" to add more input fields dynamically.
 5. Click "Save" to save your settings.
 
 ## Contributing
