@@ -1,7 +1,10 @@
 
 # ImageSwap Roullete
 
-![Alt text](icon128.jpeg "a title")  
+<p align="center">
+  <img src="icon128.png" />
+</p>
+
 Give that webpage a makeover by swapping out all its images with a delightful selection of random pictures handpicked by you!
 
 # ImageSwap Roulette Chrome Extension
