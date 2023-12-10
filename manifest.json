@@ -18,10 +18,10 @@
 	],
 	"homepage_url": "https://github.com/LincolnG4/ImageSwap-Roulette",
 	"icons": {
-		"16": "icon16.png",
-		"32": "icon32.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
+		"16": "icon16.jpge",
+		"32": "icon32.jpeg",
+		"48": "icon48.jpeg",
+		"128": "icon128.jpeg"
 	},
 	"permissions": ["storage"],
 	"short_name": "ImageSwap Roulette"
