@@ -54,6 +54,7 @@ function restore() {
 
 function changed() {
     document.getElementById("submit").value = "Save";
+    save()
 }
 
 function enter(e) {

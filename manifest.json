@@ -3,7 +3,7 @@
 	"description": "Give that webpage a makeover by swapping out all its images with a delightful selection of random pictures handpicked by you!",
 	"author": "LincolnG4",
 	"manifest_version": 3,
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"action": {
 		"default_title": "Image Swapper",
 		"default_popup": "index.html"

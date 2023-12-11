@@ -13,19 +13,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div class="switchContainer">
+        <label class="switch">
+            <input type="checkbox" id="enabled">
+            <span class="slider round"></span>
+            <span class="label on">On</span>
+            <span class="label off">Off</span>
+        </label>
+    </div>
     <div id="header">
         <div id="logoContainer">
             <img src="logo.png" alt="Image Swapper" id="logo">
         </div>
         <h3>Image Swapper</h3>
     </div>
-
     <p>Add numerous image URLs, save, and enable the transformation with a single click.</p>
-    <div class="checkboxContainer">
-        <input type="checkbox" id="enabled">
-        <label for="enabled">Enabled</label>
-    </div>
-
+    
+    
     <div id="urlInputs">
         <!-- Initial URL input -->
         <input class="urlInput" type="url" placeholder="https://example.com/image.png">
