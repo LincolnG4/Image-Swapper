@@ -1,5 +1,5 @@
 
-# ImageSwap Roullete
+# Image Swapper
 
 <p align="center">
   <img src="icon128.png" />
@@ -7,9 +7,9 @@
 
 Give that webpage a makeover by swapping out all its images with a delightful selection of random pictures handpicked by you!
 
-# ImageSwap Roulette Chrome Extension
+# Image Swapper Chrome Extension
 
-ImageSwap Roulette is a Chrome extension is a fork of [Image Replacer](https://github.com/MysteryPancake/Image-Replacer) that allows you to dynamically replace images on webpages with a delightful selection of random pictures. Customize the images by adding your own URLs in the extension options.
+Image Swapper is a Chrome extension is a fork of [Image Replacer](https://github.com/MysteryPancake/Image-Replacer) that allows you to dynamically replace images on webpages with a delightful selection of random pictures. Customize the images by adding your own URLs in the extension options.
 
 ## Features
 

@@ -1,11 +1,11 @@
 {
-	"name": "ImageSwap Roulette",
+	"name": "Image Swapper",
 	"description": "Give that webpage a makeover by swapping out all its images with a delightful selection of random pictures handpicked by you!",
 	"author": "LincolnG4",
 	"manifest_version": 3,
 	"version": "0.0.1",
 	"action": {
-		"default_title": "ImageSwap Roulette",
+		"default_title": "Image Swapper",
 		"default_popup": "index.html"
 	},
 	"content_scripts": [
@@ -29,5 +29,5 @@
 	"permissions": [
 		"storage"
 	],
-	"short_name": "ImageSwap Roulette"
+	"short_name": "Image Swapper"
 }
