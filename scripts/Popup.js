@@ -21,6 +21,15 @@ function addUrlInput() {
     urlInputsContainer.appendChild(newUrlInput);
 }
 
+function removeLastUrlInput() {
+    const urlInputsContainer = document.getElementById('urlInputs');
+    const urlInputs = document.querySelectorAll('.urlInput');
+    if (urlInputs.length > 1) {
+      const lastUrlInput = urlInputs[urlInputs.length - 1];
+      urlInputsContainer.removeChild(lastUrlInput);
+    }
+}
+
 function restore() {
     chrome.storage.local.get({
         enabled: false,
@@ -60,3 +69,4 @@ document.getElementById("enabled").addEventListener("click", changed);
 document.getElementById("addUrl").addEventListener("click", addUrlInput);
 document.addEventListener("input", changed);
 document.addEventListener("keydown", enter);
+document.getElementById('removeUrl').addEventListener("click", removeLastUrlInput);

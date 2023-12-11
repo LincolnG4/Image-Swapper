@@ -32,7 +32,7 @@ chrome.storage.local.get({
 }, function(items) {
     if (items.enabled) {
         url = items.url;
-        window.setInterval(replace, 5000);
+        window.setInterval(replace, 2000);
         replace();
     }
 });

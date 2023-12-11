@@ -13,15 +13,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <input id="enabled" type="checkbox">
-    <label for="enabled">Enabled</label>
+    <div id="header">
+        <div id="logoContainer">
+            <img src="logo.png" alt="ImageSwap Roulette" id="logo">
+        </div>
+        <h3>ImageSwap Roulette</h3>
+    </div>
+
+    <p>Add numerous image URLs, save, and enable the transformation with a single click.</p>
+    <div class="checkboxContainer">
+        <input type="checkbox" id="enabled">
+        <label for="enabled">Enabled</label>
+    </div>
 
     <div id="urlInputs">
         <!-- Initial URL input -->
         <input class="urlInput" type="url" placeholder="https://example.com/image.png">
     </div>
 
-    <button id="addUrl">Add more images</button>
+    <div class="buttonContainer">
+        <button id="addUrl" class="addButton">Add</button>
+        <button id="removeUrl" class="removeButton">Remove</button>
+    </div>
 
     <input id="submit" type="submit" value="Save">
 
