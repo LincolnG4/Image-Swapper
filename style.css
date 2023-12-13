@@ -130,6 +130,7 @@ input[type="submit"]:active {
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 17px;
+   
 }
 
 .label {
@@ -139,6 +140,7 @@ input[type="submit"]:active {
     font-size: 12px;
     color: #fff;
     padding: 0 4px;
+    
 }
 
 .on {
@@ -156,12 +158,13 @@ input[type="submit"]:active {
     content: "";
     height: 26px;
     width: 26px;
-    left: 4px;
-    bottom: 4px;
+    left: 2px;
+    bottom: 2px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
+    border: 1px solid #000;
 }
 
 input:checked + .slider {
